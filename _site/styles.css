@@ -1,0 +1,58 @@
+/* ===== Import Fonts ===== */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;600&display=swap');
+
+/* ===== Base ===== */
+body {
+  background-color: #F4E8F2;   /* Lila claro */
+  color: #2D2D2D;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+}
+
+/* ===== Titles ===== */
+h1 {
+  font-family: 'Anton', sans-serif;
+  color: #E11D2E;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 4rem;          /* 🔥 Más grande */
+  text-align: center;       /* 🔥 Centrado */
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: 'Anton', sans-serif;
+  color: #E11D2E;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+h3 {
+  color: #0A8F5A;              /* Verde acento */
+  font-weight: 600;
+}
+
+/* ===== Links ===== */
+a {
+  color: #1F6FEB;              /* Azul */
+  font-weight: 600;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E11D2E;
+  text-decoration: underline;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+  background-color: #F4E8F2 !important;
+  border-bottom: 1px solid #e6d3e3;
+}
+
+.navbar a {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}

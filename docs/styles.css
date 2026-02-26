@@ -176,3 +176,79 @@ h1{
   color: #2a2a2a;
 }
 .refs a{ color: #2a2a2a; }
+
+/* =========================
+   Mobile / Responsive fixes
+   ========================= */
+
+/* Evita “saltos” raros por 100vw (a veces mete scroll horizontal) */
+html, body{
+  overflow-x: hidden;
+}
+
+/* Contenedor principal más respirable en pantallas chicas */
+main.content{
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+/* Video: full responsive */
+.mide-video{
+  width: 100%;
+  max-width: 920px;
+}
+
+/* Títulos con clamp: se adaptan solos */
+h1{
+  font-size: clamp(2.6rem, 7vw, 5.2rem);
+  letter-spacing: clamp(1px, 0.7vw, 2px);
+}
+
+.mide-h2{
+  font-size: clamp(2.2rem, 7vw, 4rem);
+}
+
+/* Tipografías internas: que no se vean gigantes en móvil */
+.mide-paragraph{
+  font-size: clamp(1.02rem, 2.4vw, 1.25rem);
+  line-height: 1.55;
+}
+
+.mide-biglist{
+  font-size: clamp(1.05rem, 2.8vw, 1.45rem);
+  padding-left: 1.1rem;
+}
+
+/* Slabs: en móvil que sea 1 columna + padding menor */
+@media (max-width: 980px){
+  .mide-slab{
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .mide-slab-inner{
+    grid-template-columns: 1fr;
+    border-radius: 18px;     /* un poquito menos grande */
+  }
+
+  .mide-pane{
+    padding: 26px 22px;      /* antes era enorme */
+  }
+
+  .mide-kicker{
+    letter-spacing: 4px;
+    font-size: .8rem;
+  }
+}
+
+/* Ultra móvil (iPhone mini etc.) */
+@media (max-width: 420px){
+  .mide-pane{
+    padding: 22px 18px;
+  }
+  .quarto-title-block .subtitle{
+    letter-spacing: 4px;
+    font-size: 1rem;
+  }
+}
