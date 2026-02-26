@@ -1,7 +1,15 @@
 ---
 title: "CRECIMIENTO INCLUSIVO"
 subtitle: "Avances del equipo 5"
-format: html
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    anchor-sections: false
+    meta:
+      viewport: width=device-width, initial-scale=1
 ---
 
 <video class="mide-video" controls>
