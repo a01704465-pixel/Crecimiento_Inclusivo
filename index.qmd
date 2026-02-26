@@ -1,0 +1,77 @@
+---
+title: "CRECIMIENTO INCLUSIVO"
+subtitle: "Avances del equipo 5"
+format: html
+---
+
+<video class="mide-video" controls>
+  <source src="assets/videos/animatic_final.mp4" type="video/mp4">
+</video>
+
+<!-- ================= CONCEPTO (ROJO) ================= -->
+::: {.mide-block .block-red}
+<div class="mide-card">
+  <p class="mide-eyebrow">¿Qué es?</p>
+  <h2 class="mide-title">CRECIMIENTO INCLUSIVO</h2>
+
+  <div class="mide-body">
+
+Se refiere tanto al **ritmo** como al **patrón del crecimiento económico** y requiere que **todos los segmentos de la fuerza laboral** puedan contribuir y beneficiarse del desarrollo (Ianchovichina & Lundstrom Gable, 2012).
+
+Implica **equidad**, **igualdad de oportunidades** y **acceso a mercados y recursos** dentro de un **entorno regulatorio imparcial**; no se limita al crecimiento agregado o la reducción de pobreza (Ianchovichina & Lundstrom Gable, 2012).
+
+En el marco internacional de **“strong, sustainable, balanced and inclusive growth”** (IMF, 2025), el **PIB por sí solo no garantiza beneficios compartidos**, por lo que debe complementarse con **indicadores de igualdad y condiciones de vida** (UNCTAD, 2025).
+
+  </div>
+</div>
+:::
+
+<!-- ================= BRECHAS (VERDE) ================= -->
+
+::: {.mide-block .block-green}
+<div class="mide-card">
+  <p class="mide-eyebrow">¿Cómo impacta?</p>
+  <h2 class="mide-title">BRECHAS</h2>
+
+  <ul class="mide-list">
+    <li><b>47%</b> de rezago educativo vs. <b>17%</b> del resto de la población (ENIGH, 2024).</li>
+    <li><b>51%</b> con carencia de acceso a salud vs. <b>33%</b> del resto de la población (ENIGH, 2024).</li>
+    <li><b>67%</b> por debajo de la línea de pobreza por ingresos vs. <b>33%</b> del resto de la población (ENIGH, 2024).</li>
+  </ul>
+</div>
+:::
+
+<!-- ================= BARRERAS (MORADO) ================= -->
+
+::: {.mide-block .block-purple}
+<div class="mide-card">
+  <p class="mide-eyebrow">¿Cómo se ve?</p>
+  <h2 class="mide-title">BARRERAS</h2>
+
+  <ul class="mide-list">
+    <li><b>Lengua y escuela:</b> barreras lingüísticas al ingresar al sistema educativo (ENIGH, 2024).</li>
+    <li><b>Salud:</b> pobreza, discriminación y acceso limitado elevan costos o reducen atención (ENIGH, 2024).</li>
+    <li><b>Servicios y tecnología:</b> acceso limitado a tecnologías y servicios básicos (Carnoy et al., 2002; Serván et al., 2024; Mora et al., 2024).</li>
+  </ul>
+</div>
+:::
+
+---
+
+## Referencias
+
+<div class="refs">
+
+CNBV [Comisión Nacional Bancaria y de Valores] (2025). *Encuesta Nacional del Inclusión Financiera (ENIF) 2024: Reporte de resultados.*
+
+Consejo Nacional de Evaluación de la Política de Desarrollo Social (CONEVAL). (2025). *Pobreza y población indígena en México.* Ciudad de México: CONEVAL.
+
+Instituto Nacional de los Pueblos Indígenas. (2026, 7 de enero). https://www.gob.mx/inpi/articulos/reduccion-de-la-pobreza-en-poblacion-indigena-pone-en-practica-el-principio-humanista-de-que-por-el-bien-de-todos-primero-los-pobres?idiom=es
+
+International Monetary Fund. (2025). *Report on Strong, Sustainable, Balanced, and Inclusive Growth* (Report to the G20 Finance Ministers and Central Bank Governors). https://www.imf.org/-/media/files/research/imf-and-g20/2025/g20-report-on-strong-sustainable-balanced-and-inclusive-growth.pdf
+
+Ianchovichina, E., &amp; Lundstrom Gable, S. (2012). *What is inclusive growth?* En R. Arezki, C. A. Pattillo, M. G. Quintyn, &amp; M. Zhu (Eds.), *Commodity price volatility and inclusive growth in low-income countries* (pp. 147–159). International Monetary Fund. https://doi.org/10.5089/9781616353797.071
+
+ONU Comercio y Desarrollo (UNCTAD). (2025, 25 de marzo). *Más allá del PIB: Brechas persistentes, pero avances en crecimiento inclusivo.* https://unctad.org/es/news/mas-alla-del-pib-brechas-persistentes-pero-avances-en-crecimiento-inclusivo
+
+</div>

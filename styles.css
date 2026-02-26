@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;600;800&display=swap');
+
+:root{
+  --bg: #F7F2E8;          /* crema MIDE-ish */
+  --text: #111111;
+  --muted: #6b6b6b;
+
+  /* Cuadros (inspirado en tus refs) */
+  --red: #B20B3A;         /* rojo */
+  --redText: #ffffff;
+
+  --greenBg: #D9E68C;     /* verde clarito */
+  --greenText: #0A6A46;   /* verde oscuro texto */
+
+  --purple: #B46A97;      /* morado */
+  --purpleText: #ffffff;
+
+  --radius: 28px;
+}
+
+/* ===== Base ===== */
+body{
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Inter', sans-serif;
+  line-height: 1.65;
+}
+
+main.content{
+  max-width: 980px;
+  margin: 0 auto;
+  padding-top: 28px;
+}
+
+/* ===== Hero (titulo + subtitulo) ===== */
+.quarto-title-block{
+  text-align: center;
+  margin-top: 38px;
+  margin-bottom: 10px;
+}
+
+h1{
+  font-family: 'Anton', sans-serif;
+  font-size: 5.2rem;
+  line-height: 0.92;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0 0 12px;
+}
+
+.quarto-title-block .subtitle{
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-weight: 600;
+  font-size: 1.15rem;
+  margin: 0;
+}
+
+/* ===== Video ===== */
+.mide-video{
+  width: min(920px, 100%);
+  display: block;
+  margin: 18px auto 0;
+  border-radius: var(--radius);
+  background: #000;
+}
+
+/* ===== Cuadros full-width (como “slides” del MIDE) ===== */
+.mide-block{
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  margin-top: 36px;
+}
+
+.mide-card{
+  max-width: 1200px;
+  margin: 0 auto;
+  border-radius: var(--radius);
+  padding: 54px 58px;
+  box-shadow: 0 16px 44px rgba(0,0,0,.12);
+}
+
+@media (max-width: 980px){
+  .mide-card{ padding: 40px 26px; }
+}
+
+/* Eyebrow arriba del título (¿Qué es? / ¿Cómo impacta? / ¿Cómo se ve?) */
+.mide-eyebrow{
+  font-size: .95rem;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  font-weight: 600;
+  opacity: .95;
+  margin: 0 0 14px;
+}
+
+/* Título grande del cuadro */
+.mide-title{
+  font-family: 'Anton', sans-serif;
+  text-transform: uppercase;
+  font-size: 4.4rem;
+  line-height: 0.95;
+  letter-spacing: 1px;
+  margin: 0 0 18px;
+}
+
+/* Texto dentro del cuadro */
+.mide-body{
+  font-size: 1.35rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.mide-body p{
+  margin: 0 0 16px;
+}
+
+/* Lista grande */
+.mide-list{
+  font-size: 1.55rem;
+  font-weight: 600;
+  line-height: 1.35;
+  padding-left: 1.2rem;
+  margin: 0;
+}
+.mide-list li{ margin: 0 0 18px; }
+
+.mide-note{
+  font-size: 1.05rem;
+  font-weight: 600;
+  opacity: .9;
+  margin-top: 10px;
+}
+
+/* ===== Paletas por cuadro ===== */
+.block-red .mide-card{
+  background: var(--red);
+  color: var(--redText);
+}
+.block-red .mide-eyebrow{ color: rgba(255,255,255,.85); }
+.block-red .mide-title{ color: #fff; }
+
+.block-green .mide-card{
+  background: var(--greenBg);
+  color: var(--greenText);
+}
+.block-green .mide-eyebrow{ color: rgba(10,106,70,.85); }
+.block-green .mide-title{ color: var(--greenText); }
+
+.block-purple .mide-card{
+  background: var(--purple);
+  color: var(--purpleText);
+}
+.block-purple .mide-eyebrow{ color: rgba(255,255,255,.85); }
+.block-purple .mide-title{ color: #fff; }
+
+/* Negritas dentro de cuadros: que “brillen” un poco */
+.block-red b, .block-purple b{
+  color: #fff;
+  font-weight: 800;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+  text-decoration-color: rgba(255,255,255,.35);
+}
+.block-green b{
+  font-weight: 800;
+}
+
+/* Referencias */
+.refs{
+  max-width: 980px;
+  margin: 44px auto 70px;
+  font-size: .98rem;
+  color: #2a2a2a;
+}
+.refs a{ color: #2a2a2a; }
